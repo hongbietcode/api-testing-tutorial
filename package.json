@@ -1,0 +1,19 @@
+{
+  "name": "api-testing",
+  "version": "1.0.0",
+  "description": "Hướng dẫn học API Testing cho người mới",
+  "main": "index.js",
+  "repository": "git@github.com:hongbietcode/api-testing-tutorial.git",
+  "author": "Trí <huutrimega@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "honkit serve",
+    "build": "honkit build",
+    "clean": "rm -rf _book"
+  },
+  "devDependencies": {
+    "gitbook-plugin-edit-link": "^2.0.2",
+    "gitbook-plugin-github": "^3.0.0",
+    "honkit": "^6.1.4"
+  }
+}
